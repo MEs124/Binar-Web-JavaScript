@@ -1,3 +1,7 @@
+:root {
+    --abuabu: #F1F3FF;
+}
+
 /* Reset some default styles */
 body, h1, h2, p, ul, li, nav, section, article, aside, footer {
   margin: 0;
@@ -14,7 +18,7 @@ body {
 
 /* Header Styles */
 header {
-  background: none;
+  background-color: #F1F3FF;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -27,12 +31,12 @@ header h1 {
 /* Navigation Styles */
 nav {
   display: block;
-  background: #F1F3FF;
+  background-color: #F1F3FF;
   padding: 20px 20px 20px;
 }
 
 nav a {
-  color: #fff;
+  color: #F1F3FF;
   text-decoration: none;
   padding: 5px 20px;
   display: inline-block;
@@ -164,7 +168,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: none; /* Assuming a blue background */
+  background-color: #F1F3FF; /* Assuming a blue background */
 }
 
 .content {
@@ -339,7 +343,7 @@ img {
   width: 32px; /* Width of the logo */
   height: 32px; /* Height of the logo */
   position: absolute; /* Position the logo absolutely */
-  top: -16px; /* Half outside the card */
+  top: 20px; /* Half outside the card */
   left: 16px; /* Spacing from the left */
 }
 
@@ -351,7 +355,7 @@ img {
 
 .card h5 {
   color: #333;
-  margin: 20px 0 10px; /* Add top margin to give space from logo */
+  margin: 40px 0 10px; /* Add top margin to give space from logo */
   text-align: left;
 }
 
@@ -359,6 +363,7 @@ img {
   color: #666;
   font-size: 14px;
   line-height: 1.6;
+  
 }
 
 /* Add additional media queries if needed for responsiveness */
@@ -441,10 +446,13 @@ h2 {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-align: left;
+  width: 459px;
+  height: 270px;
+ 
 }
 
 blockquote p {
-  font-style: italic;
+  font-style: arial;
   color: #555;
 }
 
